@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\openGL\\lab-2-2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{773BED88-7AD1-4CE9-9D36-5CBA2B535A0D}|lab-2-2\\lab-2-2.vcxproj|D:\\openGL\\lab-2-2\\lab-2-2\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{773BED88-7AD1-4CE9-9D36-5CBA2B535A0D}|lab-2-2\\lab-2-2.vcxproj|solutionrelative:lab-2-2\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{773BED88-7AD1-4CE9-9D36-5CBA2B535A0D}|lab-2-2\\lab-2-2.vcxproj|D:\\openGL\\lab-2-2\\lab-2-2\\CameraMotionHelper.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{773BED88-7AD1-4CE9-9D36-5CBA2B535A0D}|lab-2-2\\lab-2-2.vcxproj|solutionrelative:lab-2-2\\CameraMotionHelper.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{773BED88-7AD1-4CE9-9D36-5CBA2B535A0D}|lab-2-2\\lab-2-2.vcxproj|D:\\openGL\\lab-2-2\\lab-2-2\\ModelDescription.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{773BED88-7AD1-4CE9-9D36-5CBA2B535A0D}|lab-2-2\\lab-2-2.vcxproj|solutionrelative:lab-2-2\\ModelDescription.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CameraMotionHelper.cpp",
+              "DocumentMoniker": "D:\\openGL\\lab-2-2\\lab-2-2\\CameraMotionHelper.cpp",
+              "RelativeDocumentMoniker": "lab-2-2\\CameraMotionHelper.cpp",
+              "ToolTip": "D:\\openGL\\lab-2-2\\lab-2-2\\CameraMotionHelper.cpp",
+              "RelativeToolTip": "lab-2-2\\CameraMotionHelper.cpp",
+              "ViewState": "AgIAADAAAAAAAAAAAAAIwEwAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-07T16:00:36.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ModelDescription.cpp",
+              "DocumentMoniker": "D:\\openGL\\lab-2-2\\lab-2-2\\ModelDescription.cpp",
+              "RelativeDocumentMoniker": "lab-2-2\\ModelDescription.cpp",
+              "ToolTip": "D:\\openGL\\lab-2-2\\lab-2-2\\ModelDescription.cpp",
+              "RelativeToolTip": "lab-2-2\\ModelDescription.cpp",
+              "ViewState": "AgIAABcAAAAAAAAAAAAIwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-07T16:00:04.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\openGL\\lab-2-2\\lab-2-2\\main.cpp",
+              "RelativeDocumentMoniker": "lab-2-2\\main.cpp",
+              "ToolTip": "D:\\openGL\\lab-2-2\\lab-2-2\\main.cpp",
+              "RelativeToolTip": "lab-2-2\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAI0BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-07T15:56:21.861Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 239,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

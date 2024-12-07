@@ -1,0 +1,10 @@
+^C:\USERS\IONYA\ONEDRIVE\РАБОЧИЙ СТОЛ\LABOPENGL\EXTERNAL\GLAD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/ionya/OneDrive/Рабочий стол/labOpenGL" "-BC:/Users/ionya/OneDrive/Рабочий стол/labOpenGL/build" --check-stamp-file "C:/Users/ionya/OneDrive/Рабочий стол/labOpenGL/build/external/glad/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

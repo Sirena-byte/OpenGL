@@ -1,0 +1,3 @@
+﻿  main.cpp
+D:\openGL\labOpenGL\labOpenGL\main.cpp(127,2): warning C4551: в вызове функции отсутствует список аргументов
+  labOpenGL.vcxproj -> D:\openGL\labOpenGL\x64\Debug\labOpenGL.exe

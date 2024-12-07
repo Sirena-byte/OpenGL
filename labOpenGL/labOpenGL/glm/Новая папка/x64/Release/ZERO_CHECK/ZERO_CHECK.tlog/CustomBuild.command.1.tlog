@@ -1,0 +1,10 @@
+^C:\USERS\IONYA\ONEDRIVE\РАБОЧИЙ СТОЛ\GLM\BUILD\CMAKEFILES\0A2E3C78DDA804FBFA5DFCB0A2FBA749\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/ionya/OneDrive/Рабочий стол/glm" "-BC:/Users/ionya/OneDrive/Рабочий стол/glm/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/ionya/OneDrive/Рабочий стол/glm/build/glm.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

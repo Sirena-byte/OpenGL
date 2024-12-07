@@ -1,0 +1,593 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C41B9ABA-0564-3142-AE49-D1F52431D36D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ionya\OneDrive\Рабочий стол\glm;C:\Users\ionya\OneDrive\Рабочий стол\glm\test\external;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ionya\OneDrive\Рабочий стол\glm;C:\Users\ionya\OneDrive\Рабочий стол\glm\test\external;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ionya\OneDrive\Рабочий стол\glm;C:\Users\ionya\OneDrive\Рабочий стол\glm\test\external;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ionya\OneDrive\Рабочий стол\glm;C:\Users\ionya\OneDrive\Рабочий стол\glm\test\external;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/ionya/OneDrive/Рабочий стол/glm/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/ionya/OneDrive/Рабочий стол/glm" "-BC:/Users/ionya/OneDrive/Рабочий стол/glm/build" --check-stamp-file "C:/Users/ionya/OneDrive/Рабочий стол/glm/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;C:\Users\ionya\OneDrive\Рабочий стол\glm\build\CMakeFiles\3.31.1\CMakeCCompiler.cmake;C:\Users\ionya\OneDrive\Рабочий стол\glm\build\CMakeFiles\3.31.1\CMakeCXXCompiler.cmake;C:\Users\ionya\OneDrive\Рабочий стол\glm\build\CMakeFiles\3.31.1\CMakeRCCompiler.cmake;C:\Users\ionya\OneDrive\Рабочий стол\glm\build\CMakeFiles\3.31.1\CMakeSystem.cmake;C:\Users\ionya\OneDrive\Рабочий стол\glm\cmake\GNUInstallDirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\ionya\OneDrive\Рабочий стол\glm\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/ionya/OneDrive/Рабочий стол/glm/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/ionya/OneDrive/Рабочий стол/glm" "-BC:/Users/ionya/OneDrive/Рабочий стол/glm/build" --check-stamp-file "C:/Users/ionya/OneDrive/Рабочий стол/glm/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;C:\Users\ionya\OneDrive\Рабочий стол\glm\build\CMakeFiles\3.31.1\CMakeCCompiler.cmake;C:\Users\ionya\OneDrive\Рабочий стол\glm\build\CMakeFiles\3.31.1\CMakeCXXCompiler.cmake;C:\Users\ionya\OneDrive\Рабочий стол\glm\build\CMakeFiles\3.31.1\CMakeRCCompiler.cmake;C:\Users\ionya\OneDrive\Рабочий стол\glm\build\CMakeFiles\3.31.1\CMakeSystem.cmake;C:\Users\ionya\OneDrive\Рабочий стол\glm\cmake\GNUInstallDirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\ionya\OneDrive\Рабочий стол\glm\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/ionya/OneDrive/Рабочий стол/glm/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/ionya/OneDrive/Рабочий стол/glm" "-BC:/Users/ionya/OneDrive/Рабочий стол/glm/build" --check-stamp-file "C:/Users/ionya/OneDrive/Рабочий стол/glm/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;C:\Users\ionya\OneDrive\Рабочий стол\glm\build\CMakeFiles\3.31.1\CMakeCCompiler.cmake;C:\Users\ionya\OneDrive\Рабочий стол\glm\build\CMakeFiles\3.31.1\CMakeCXXCompiler.cmake;C:\Users\ionya\OneDrive\Рабочий стол\glm\build\CMakeFiles\3.31.1\CMakeRCCompiler.cmake;C:\Users\ionya\OneDrive\Рабочий стол\glm\build\CMakeFiles\3.31.1\CMakeSystem.cmake;C:\Users\ionya\OneDrive\Рабочий стол\glm\cmake\GNUInstallDirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\ionya\OneDrive\Рабочий стол\glm\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/ionya/OneDrive/Рабочий стол/glm/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/ionya/OneDrive/Рабочий стол/glm" "-BC:/Users/ionya/OneDrive/Рабочий стол/glm/build" --check-stamp-file "C:/Users/ionya/OneDrive/Рабочий стол/glm/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;C:\Users\ionya\OneDrive\Рабочий стол\glm\build\CMakeFiles\3.31.1\CMakeCCompiler.cmake;C:\Users\ionya\OneDrive\Рабочий стол\glm\build\CMakeFiles\3.31.1\CMakeCXXCompiler.cmake;C:\Users\ionya\OneDrive\Рабочий стол\glm\build\CMakeFiles\3.31.1\CMakeRCCompiler.cmake;C:\Users\ionya\OneDrive\Рабочий стол\glm\build\CMakeFiles\3.31.1\CMakeSystem.cmake;C:\Users\ionya\OneDrive\Рабочий стол\glm\cmake\GNUInstallDirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\ionya\OneDrive\Рабочий стол\glm\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\ZERO_CHECK.vcxproj">
+      <Project>{992F6BC4-CD94-36D7-B04B-F3FDA772051C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\glm\glm_dummy.vcxproj">
+      <Project>{BE78AF51-EDC6-3EA9-B28E-576B686EEFCE}</Project>
+      <Name>glm_dummy</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\core\test-core_func_common.vcxproj">
+      <Project>{4AD5D57C-6344-320E-B454-03F16BECF35A}</Project>
+      <Name>test-core_func_common</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\core\test-core_func_exponential.vcxproj">
+      <Project>{60A1A5E4-473D-34AD-8B2C-DDBEBBDB3981}</Project>
+      <Name>test-core_func_exponential</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\core\test-core_func_geometric.vcxproj">
+      <Project>{21D525AA-DA28-3A26-8657-A79A247BF5FB}</Project>
+      <Name>test-core_func_geometric</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\core\test-core_func_integer.vcxproj">
+      <Project>{BB65CEC5-6DD4-35A1-8F0B-6C35692B7E0E}</Project>
+      <Name>test-core_func_integer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\core\test-core_func_integer_bit_count.vcxproj">
+      <Project>{39E86C00-FB82-381E-AA2D-F926C8483AF1}</Project>
+      <Name>test-core_func_integer_bit_count</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\core\test-core_func_integer_find_lsb.vcxproj">
+      <Project>{65922EA9-8DB8-3F71-86F1-11C3EA3B05E1}</Project>
+      <Name>test-core_func_integer_find_lsb</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\core\test-core_func_integer_find_msb.vcxproj">
+      <Project>{4A6A9B1A-D0CB-34AD-BD10-549103C0564D}</Project>
+      <Name>test-core_func_integer_find_msb</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\core\test-core_func_matrix.vcxproj">
+      <Project>{0690BB18-F47E-304B-9D55-7278D4B53C1D}</Project>
+      <Name>test-core_func_matrix</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\core\test-core_func_noise.vcxproj">
+      <Project>{A5205880-D003-3084-BAF3-7C501BD37791}</Project>
+      <Name>test-core_func_noise</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\core\test-core_func_packing.vcxproj">
+      <Project>{F9AE5C0B-8C98-399A-9901-D724E4D99A64}</Project>
+      <Name>test-core_func_packing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\core\test-core_func_swizzle.vcxproj">
+      <Project>{7753CD51-B4A4-3288-BA15-BAE2E8C67064}</Project>
+      <Name>test-core_func_swizzle</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\core\test-core_func_trigonometric.vcxproj">
+      <Project>{183087E3-CDEB-3279-A420-977102D1E4B0}</Project>
+      <Name>test-core_func_trigonometric</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\core\test-core_func_vector_relational.vcxproj">
+      <Project>{47C0AAE9-0E77-3AD1-8964-E6AC10AC03AA}</Project>
+      <Name>test-core_func_vector_relational</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\core\test-core_setup_force_cxx98.vcxproj">
+      <Project>{998FB628-742E-3A5B-B05B-DD9A345141F9}</Project>
+      <Name>test-core_setup_force_cxx98</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\core\test-core_setup_message.vcxproj">
+      <Project>{86F12295-8A27-3626-9F1D-3C5CCB5D50B4}</Project>
+      <Name>test-core_setup_message</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\core\test-core_setup_precision.vcxproj">
+      <Project>{25DA5CA1-DBB3-3065-9BA9-B8B1D5AEEFCE}</Project>
+      <Name>test-core_setup_precision</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\core\test-core_type_cast.vcxproj">
+      <Project>{568778C1-E5F3-3A6A-AEE0-C9E0BB058F15}</Project>
+      <Name>test-core_type_cast</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\core\test-core_type_float.vcxproj">
+      <Project>{4C084A32-04D9-3E48-964C-4B4944967040}</Project>
+      <Name>test-core_type_float</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\core\test-core_type_int.vcxproj">
+      <Project>{A978C5B9-D2B6-36D2-A5A2-8726B7673248}</Project>
+      <Name>test-core_type_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\core\test-core_type_length.vcxproj">
+      <Project>{C3CCFAE9-4828-3097-9CEC-188561B63889}</Project>
+      <Name>test-core_type_length</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\core\test-core_type_length_size.vcxproj">
+      <Project>{6A79DC9F-1F66-34FC-96C2-2B51692F9433}</Project>
+      <Name>test-core_type_length_size</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\core\test-core_type_mat2x2.vcxproj">
+      <Project>{B8EA0253-1C43-3E42-8451-3CA336D4F394}</Project>
+      <Name>test-core_type_mat2x2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\core\test-core_type_mat2x3.vcxproj">
+      <Project>{D1B13C6E-FC13-3ED2-AB08-37926BB5ED50}</Project>
+      <Name>test-core_type_mat2x3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\core\test-core_type_mat2x4.vcxproj">
+      <Project>{24C2538B-650B-3744-9875-099B5248919A}</Project>
+      <Name>test-core_type_mat2x4</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\core\test-core_type_mat3x2.vcxproj">
+      <Project>{74DC72EC-BC7B-3306-97BC-113BDA186534}</Project>
+      <Name>test-core_type_mat3x2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\core\test-core_type_mat3x3.vcxproj">
+      <Project>{F8378F5F-3A8B-3FE5-BC43-BB0EA1D17770}</Project>
+      <Name>test-core_type_mat3x3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\core\test-core_type_mat3x4.vcxproj">
+      <Project>{A72B26C1-6F23-30EF-B0EF-038C8CBC7CB1}</Project>
+      <Name>test-core_type_mat3x4</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\core\test-core_type_mat4x2.vcxproj">
+      <Project>{324F410A-CFC9-32E5-A7C6-D4C539693A68}</Project>
+      <Name>test-core_type_mat4x2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\core\test-core_type_mat4x3.vcxproj">
+      <Project>{EAAAB7CE-35EB-3185-B2A0-3BCC831BA66A}</Project>
+      <Name>test-core_type_mat4x3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\core\test-core_type_mat4x4.vcxproj">
+      <Project>{C8EC647E-8FA1-3C66-A46A-CBB3DC3FD568}</Project>
+      <Name>test-core_type_mat4x4</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\core\test-core_type_vec1.vcxproj">
+      <Project>{DAE35747-3E0C-361E-AB73-2CE03F86B667}</Project>
+      <Name>test-core_type_vec1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\core\test-core_type_vec2.vcxproj">
+      <Project>{3E9FFB9E-75EE-3669-B05D-470B0E2B33F6}</Project>
+      <Name>test-core_type_vec2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\core\test-core_type_vec3.vcxproj">
+      <Project>{7C14380A-874A-3568-82F2-72767CB00D6E}</Project>
+      <Name>test-core_type_vec3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\core\test-core_type_vec4.vcxproj">
+      <Project>{3DF186C7-855D-34C8-9ECD-786C3E876BD4}</Project>
+      <Name>test-core_type_vec4</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtc\test-gtc_bitfield.vcxproj">
+      <Project>{ED2385B1-9CDA-35E9-AFE1-FE0822D93544}</Project>
+      <Name>test-gtc_bitfield</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtc\test-gtc_constants.vcxproj">
+      <Project>{45AD04EA-5669-30CC-9420-834F652DADE3}</Project>
+      <Name>test-gtc_constants</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtc\test-gtc_epsilon.vcxproj">
+      <Project>{3A373BD6-86A7-3A5B-BF70-042046865C73}</Project>
+      <Name>test-gtc_epsilon</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtc\test-gtc_integer.vcxproj">
+      <Project>{9D68BE3D-AD60-3132-9588-EFA03542D46F}</Project>
+      <Name>test-gtc_integer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtc\test-gtc_matrix_access.vcxproj">
+      <Project>{4CA7FCD8-1C03-364B-9B41-E5A9C865E326}</Project>
+      <Name>test-gtc_matrix_access</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtc\test-gtc_matrix_integer.vcxproj">
+      <Project>{8F7D8532-A1E3-3187-B9BE-17BD1D0547C5}</Project>
+      <Name>test-gtc_matrix_integer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtc\test-gtc_matrix_inverse.vcxproj">
+      <Project>{70A535B8-FEFC-352E-8B45-51127F886071}</Project>
+      <Name>test-gtc_matrix_inverse</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtc\test-gtc_matrix_transform.vcxproj">
+      <Project>{4905240C-71DC-3A0E-BACA-7FF3D3B7094C}</Project>
+      <Name>test-gtc_matrix_transform</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtc\test-gtc_noise.vcxproj">
+      <Project>{324A7F7C-AC82-3DC0-8F32-903777B1C905}</Project>
+      <Name>test-gtc_noise</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtc\test-gtc_packing.vcxproj">
+      <Project>{25AE81E3-3B21-3A1F-84E2-D68DB3B53F84}</Project>
+      <Name>test-gtc_packing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtc\test-gtc_quaternion.vcxproj">
+      <Project>{C6D39C57-2894-372F-9681-314E4A19DDF2}</Project>
+      <Name>test-gtc_quaternion</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtc\test-gtc_random.vcxproj">
+      <Project>{FCA112AB-2929-3BA0-81D0-471B764F6863}</Project>
+      <Name>test-gtc_random</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtc\test-gtc_reciprocal.vcxproj">
+      <Project>{5A71AE48-FB9B-317E-8C4A-34B2B3180362}</Project>
+      <Name>test-gtc_reciprocal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtc\test-gtc_round.vcxproj">
+      <Project>{12F6EE8B-C2D8-34C3-908F-3776C897E9C9}</Project>
+      <Name>test-gtc_round</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtc\test-gtc_type_precision.vcxproj">
+      <Project>{25DA8D3D-8E83-351D-BB7F-13AFBF0D4500}</Project>
+      <Name>test-gtc_type_precision</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtc\test-gtc_type_ptr.vcxproj">
+      <Project>{F1D70660-1377-3F27-A005-284BC98A3C89}</Project>
+      <Name>test-gtc_type_ptr</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtc\test-gtc_ulp.vcxproj">
+      <Project>{49598194-EBD6-377C-8C31-657855316DFD}</Project>
+      <Name>test-gtc_ulp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtc\test-gtc_vec1.vcxproj">
+      <Project>{F332DBAC-AC1D-3583-AB88-833411CAE779}</Project>
+      <Name>test-gtc_vec1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtx\test-gtx_associated_min_max.vcxproj">
+      <Project>{0DC953C1-DF07-370D-9B46-6EC618037AFE}</Project>
+      <Name>test-gtx_associated_min_max</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtx\test-gtx_closest_point.vcxproj">
+      <Project>{A7E08788-7E34-39FB-A12A-5B96774D7E0A}</Project>
+      <Name>test-gtx_closest_point</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtx\test-gtx_color_space.vcxproj">
+      <Project>{159EFC3F-B4A9-3319-BC0A-8DDC40ED4751}</Project>
+      <Name>test-gtx_color_space</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtx\test-gtx_color_space_YCoCg.vcxproj">
+      <Project>{8339EE32-E87F-3E7F-AAC2-5E4FF05D1B80}</Project>
+      <Name>test-gtx_color_space_YCoCg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtx\test-gtx_common.vcxproj">
+      <Project>{8BABFCE6-03AC-3FCF-884A-A4E1146DCB9D}</Project>
+      <Name>test-gtx_common</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtx\test-gtx_compatibility.vcxproj">
+      <Project>{3AA11AB1-066B-393F-915E-65EB856270CC}</Project>
+      <Name>test-gtx_compatibility</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtx\test-gtx_component_wise.vcxproj">
+      <Project>{3C0AEA4E-742A-3484-B4C5-9B38A26F2786}</Project>
+      <Name>test-gtx_component_wise</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtx\test-gtx_dual_quaternion.vcxproj">
+      <Project>{1CA765EB-BFBC-3510-AF23-2C1DB52D8B2B}</Project>
+      <Name>test-gtx_dual_quaternion</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtx\test-gtx_euler_angle.vcxproj">
+      <Project>{6613F040-BB3A-35B9-ADEC-F0536D9DC9F4}</Project>
+      <Name>test-gtx_euler_angle</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtx\test-gtx_extend.vcxproj">
+      <Project>{7F4F856B-4AE5-36B1-8553-918A5580AA21}</Project>
+      <Name>test-gtx_extend</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtx\test-gtx_extented_min_max.vcxproj">
+      <Project>{0C75027D-55FE-34A0-8ADC-52907348D17B}</Project>
+      <Name>test-gtx_extented_min_max</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtx\test-gtx_fast_exponential.vcxproj">
+      <Project>{10FFE4F6-C112-3E5D-A47C-A4F68FA3CA6E}</Project>
+      <Name>test-gtx_fast_exponential</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtx\test-gtx_fast_square_root.vcxproj">
+      <Project>{679E2954-E07E-39EB-AC3A-1D20FFC04580}</Project>
+      <Name>test-gtx_fast_square_root</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtx\test-gtx_fast_trigonometry.vcxproj">
+      <Project>{2561A907-C4F2-322C-ACA2-7D0A0DE8AD4D}</Project>
+      <Name>test-gtx_fast_trigonometry</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtx\test-gtx_gradient_paint.vcxproj">
+      <Project>{98A7C955-1976-3FFF-99C5-F8564F710851}</Project>
+      <Name>test-gtx_gradient_paint</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtx\test-gtx_handed_coordinate_space.vcxproj">
+      <Project>{D3A26A56-6B7F-3E33-A5A5-5D266983A401}</Project>
+      <Name>test-gtx_handed_coordinate_space</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtx\test-gtx_integer.vcxproj">
+      <Project>{C373C404-3EBE-313C-8E5C-3D1B3C58FAB1}</Project>
+      <Name>test-gtx_integer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtx\test-gtx_intersect.vcxproj">
+      <Project>{D2496C46-2170-37D0-9BAC-7FDEEDF88EFF}</Project>
+      <Name>test-gtx_intersect</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtx\test-gtx_io.vcxproj">
+      <Project>{14527056-233B-35CE-ABB4-A038FB14DC38}</Project>
+      <Name>test-gtx_io</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtx\test-gtx_log_base.vcxproj">
+      <Project>{949DC702-E8B7-3793-90BA-FC26E4EB3508}</Project>
+      <Name>test-gtx_log_base</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtx\test-gtx_matrix_cross_product.vcxproj">
+      <Project>{0E345B0D-D7B7-3527-B88B-AAD992FA69F8}</Project>
+      <Name>test-gtx_matrix_cross_product</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtx\test-gtx_matrix_decompose.vcxproj">
+      <Project>{69AE9C83-35A2-3675-A94F-8AFAF7E9EEDD}</Project>
+      <Name>test-gtx_matrix_decompose</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtx\test-gtx_matrix_interpolation.vcxproj">
+      <Project>{1F5192DA-A2B2-33EB-A55D-E8929DBC56C6}</Project>
+      <Name>test-gtx_matrix_interpolation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtx\test-gtx_matrix_major_storage.vcxproj">
+      <Project>{BCCB340A-BB38-3D12-AAF9-3C32AD44DB13}</Project>
+      <Name>test-gtx_matrix_major_storage</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtx\test-gtx_matrix_operation.vcxproj">
+      <Project>{25B1779A-D37E-38F8-9700-A15776AA9952}</Project>
+      <Name>test-gtx_matrix_operation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtx\test-gtx_matrix_query.vcxproj">
+      <Project>{A156771A-77E6-3857-90AB-7FF086A2EC50}</Project>
+      <Name>test-gtx_matrix_query</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtx\test-gtx_matrix_transform_2d.vcxproj">
+      <Project>{A99F9CC3-7C79-3513-BBA0-76C97885BA97}</Project>
+      <Name>test-gtx_matrix_transform_2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtx\test-gtx_multiple.vcxproj">
+      <Project>{B857BB77-1921-32CE-96FD-9779D055465D}</Project>
+      <Name>test-gtx_multiple</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtx\test-gtx_norm.vcxproj">
+      <Project>{B70B24C0-7518-34A8-966F-B9E0FD0C953F}</Project>
+      <Name>test-gtx_norm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtx\test-gtx_normal.vcxproj">
+      <Project>{94AB5D82-97D1-35EF-AF17-69137F427938}</Project>
+      <Name>test-gtx_normal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtx\test-gtx_normalize_dot.vcxproj">
+      <Project>{2154B7F9-D9A2-32CB-A085-29337F727FFE}</Project>
+      <Name>test-gtx_normalize_dot</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtx\test-gtx_number_precision.vcxproj">
+      <Project>{7CB0A66D-AD4D-368A-8246-DE559AD458CB}</Project>
+      <Name>test-gtx_number_precision</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtx\test-gtx_optimum_pow.vcxproj">
+      <Project>{A9E2F301-4527-33FF-939E-4DB2F0A7B917}</Project>
+      <Name>test-gtx_optimum_pow</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtx\test-gtx_orthonormalize.vcxproj">
+      <Project>{2377A12C-C3EB-37B3-B5B8-DECE6CAF0DC8}</Project>
+      <Name>test-gtx_orthonormalize</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtx\test-gtx_perpendicular.vcxproj">
+      <Project>{EC0E9C1F-044D-3297-AC2D-F0803E823DCB}</Project>
+      <Name>test-gtx_perpendicular</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtx\test-gtx_polar_coordinates.vcxproj">
+      <Project>{F0C36064-09AF-3BA7-81D8-95E9D6D91749}</Project>
+      <Name>test-gtx_polar_coordinates</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtx\test-gtx_projection.vcxproj">
+      <Project>{7B675239-708A-3359-8FAE-E4AE62714FAE}</Project>
+      <Name>test-gtx_projection</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtx\test-gtx_quaternion.vcxproj">
+      <Project>{7F55B4FE-7830-3CE4-B0E9-8D8371DE59AB}</Project>
+      <Name>test-gtx_quaternion</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtx\test-gtx_range.vcxproj">
+      <Project>{10351432-3357-3BD7-A6D7-7928D051F8AE}</Project>
+      <Name>test-gtx_range</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtx\test-gtx_rotate_normalized_axis.vcxproj">
+      <Project>{FBAEF06D-48D3-3302-9F4A-B5409057BD3D}</Project>
+      <Name>test-gtx_rotate_normalized_axis</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtx\test-gtx_rotate_vector.vcxproj">
+      <Project>{58E81819-3CFE-314B-955C-93E151748F30}</Project>
+      <Name>test-gtx_rotate_vector</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtx\test-gtx_scalar_multiplication.vcxproj">
+      <Project>{DBAE2A81-FE5C-322D-9BD7-75C5507D6C65}</Project>
+      <Name>test-gtx_scalar_multiplication</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtx\test-gtx_scalar_relational.vcxproj">
+      <Project>{D95D6FFB-6DA6-3DC1-9FB0-7EA3466D69FE}</Project>
+      <Name>test-gtx_scalar_relational</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtx\test-gtx_simd_mat4.vcxproj">
+      <Project>{22E8AF0E-2315-3A28-AFA2-3DFE80253747}</Project>
+      <Name>test-gtx_simd_mat4</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtx\test-gtx_simd_vec4.vcxproj">
+      <Project>{97F3A6A7-0FB9-3208-BF89-3CB00199D6A8}</Project>
+      <Name>test-gtx_simd_vec4</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtx\test-gtx_spline.vcxproj">
+      <Project>{99A52779-0FEA-3E38-A82D-2DB07ACBA674}</Project>
+      <Name>test-gtx_spline</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtx\test-gtx_string_cast.vcxproj">
+      <Project>{5EAE3603-93F8-379B-A323-7637D66E7FFE}</Project>
+      <Name>test-gtx_string_cast</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtx\test-gtx_type_aligned.vcxproj">
+      <Project>{148370A5-9020-3E36-899C-4589BB9A5300}</Project>
+      <Name>test-gtx_type_aligned</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtx\test-gtx_vector_angle.vcxproj">
+      <Project>{60CD6657-9190-30AE-BD7C-1AD35C57ADD7}</Project>
+      <Name>test-gtx_vector_angle</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ionya\OneDrive\Рабочий стол\glm\build\test\gtx\test-gtx_vector_query.vcxproj">
+      <Project>{CD33411C-CF8E-3B23-8AB7-F69E4BF29FB3}</Project>
+      <Name>test-gtx_vector_query</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
